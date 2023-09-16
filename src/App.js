@@ -25,7 +25,7 @@ const App = () => {
     <About></About>
     <OrderProcess></OrderProcess>
     <Testimonials/>
-    <AboutFounder/>
+    {/* <AboutFounder/> */}
     <Footer/>
    </div>
   );

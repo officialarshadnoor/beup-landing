@@ -13,8 +13,12 @@ const Testimonials = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-    });
+      delay: 5000,
+    },
+    );
   }, []);
+
+  
 
   return (
     <section className="py-16" data-aos='fade-down' data-aos-delay='200'>
@@ -23,7 +27,7 @@ const Testimonials = () => {
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
-          autoplay={{ delay: 5000, disableOnInteraction: false }}
+          autoplay={{ delay: 1000, disableOnInteraction: true }}
           pagination={{ clickable: true }}
           effect="fade"
           className="rounded-lg shadow-lg overflow-hidden"
