@@ -6,6 +6,7 @@ import AboutImg4 from '../src/assets/g4.png';
 import AboutImg from '../src/assets/about.jpg';
 import HeroImage from '../src/assets/hero.png';
 import TestImg1 from '../src/assets/test1.png';
+import FounderImg from '../src/assets/aftab.png';
 // import Feature1Img from '../src/assets/img/features/feature1.png';
 // import Feature2Img from '../src/assets/img/features/feature1.png';
 // import Feature3Img from '../src/assets/img/features/feature2.png';
@@ -33,7 +34,7 @@ export const navigationData = [
 ];
 
 export const heroData = {
-    title: `Elevate Your Style with BeUp`,
+    title: `Comfort and confidence in oversize`,
     subTitle : 'Discover Trendsetting Oversized Tees and Premium Fashion Essentials',
     btnText : 'Start Shopping',
     image: HeroImage,
@@ -60,6 +61,12 @@ export const aboutSecData = {
     title4: 'Trendy Outerwear',
     subTitle4: 'Stay cozy and fashionable in any weather with our trendy outerwear. From stylish jackets to warm coats, our outerwear pieces are designed to keep you looking chic. Don\'t let the weather dull your style. Explore our trendy outerwear range that combines fashion-forward designs with the functionality you need to stay warm and fabulous.',
 };
+
+export const AboutFounderData = {
+    name: 'Aftab Chand',
+    img: FounderImg,
+    about: '<p>In the dynamic realm of fashion e-commerce, one name stands out as a true visionary and a trailblazer: Aftab Chand, the driving force behind the phenomenal success of BeUp, an oversized clothing brand that has taken the fashion world by storm. Aftab Chand is not just the founder of BeUp; he is the creative genius, the critical thinker, and the embodiment of innovation in the fashion industry.</p><br/><p>Aftab\'s journey to fashion stardom began with a strong foundation as a graphic designer. His artistic sensibilities and keen eye for aesthetics have been the driving force behind BeUp\'s unique and trendsetting designs. What sets Aftab apart is his ability to blend form and function seamlessly, creating oversized clothing that not only makes a bold fashion statement but also ensures comfort and practicality for wearers of all sizes.</p><br/><p>As a critical thinker, Aftab Chand has been the guiding force behind BeUp\'s evolution, continually pushing the boundaries of fashion norms. His visionary approach has led to the brand\'s meteoric rise, making it synonymous with oversized fashion and trending clothing </p><p>Aftab Chand\'s story is one of passion, creativity, and unwavering dedication. He has not only transformed the fashion landscape but has also inspired countless others to dream big and pursue their unique visions. With Aftab at the helm, BeUp is not just a brand; it\'s a movement that celebrates individuality and challenges the status quo in fashion.</p>',
+  };
 
 
 const testimonialData = [
@@ -103,4 +110,3 @@ const testimonialData = [
   ];
   
   export default testimonialData;
-  

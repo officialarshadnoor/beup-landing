@@ -11,6 +11,7 @@ import OrderProcess from './components/OderProcess';
 import  Testimonials  from './components/Testimonials';
 import CtaSection  from './components/CtaSection';
 import Footer  from './components/Footer';
+import AboutFounder from './components/aboutFounder';
 
 const App = () => {
   // aos initialization
@@ -24,6 +25,7 @@ const App = () => {
     <About></About>
     <OrderProcess></OrderProcess>
     <Testimonials/>
+    <AboutFounder/>
     <Footer/>
    </div>
   );

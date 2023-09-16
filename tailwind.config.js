@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: 'Open Sans',
-      secondary: 'Lato',
+      secondary: 'Montserrat',
     },
     container: {
       padding: {
@@ -20,11 +20,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#212353',
-        secondary: '#4B5D68',
+        primary: '#FFD700', // Darker Yellow
+        secondary: '#666666', // Dark color
+        background: '#ffffff', // White background
         accent: {
-          primary: '#9C69E2',
-          primary_hover: '#9059DB',
+          primary: '#FFF300',
+          primary_hover: '#DFD500',
           secondary: '#F063BB',
           secondary_hover: '#E350A9',
           tertiary: '#68C9BA',

@@ -26,13 +26,13 @@ const Header = () => {
                     </div>
                     </div>
                     {/* Mobile Nav - Initially is showing hidden on large screen */ }
-                    <div className={`${navMobile ? 'max-h-52' : 'max-h-0'} lg:hidden absolute top-24 bg-accent-tertiary w-full left-0 right-0 font-bold rounded transition-all overflow-hidden`}>
+                    <div className={`${navMobile ? 'max-h-52' : 'max-h-0'} lg:hidden absolute top-24 bg-[#222222] w-full left-0 right-0 font-bold rounded transition-all overflow-hidden`}>
                     <NavMobile></NavMobile>
                     </div>
 
                     {/* Button */ }
-                    <button className='btn btn-quaternary flex items-center gap-x-[20px] group'>
-                        Get Connected <BsArrowRight className='text-2xl text-accent-primary group-hover:text-white transition'/>
+                    <button className='btn btn-quaternary flex items-center gap-x-[20px] group hover:text-white hover:bg-primary'>
+                        Contact <BsArrowRight className='text-2xl text-accent-primary group-hover:text-white transition'/>
                     </button>
                     {/* Nav trigger button - only shows on mobile view */ }
                     <div onClick={() => setNavMobile (!navMobile)}

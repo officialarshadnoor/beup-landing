@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto&display=swap');
+
+/* src/index.css */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
 @layer base {
   body {
     @apply font-secondary text-secondary bg-gradient-to-b from-[#F6FAFD] to-[#FFFFFF] bg-no-repeat;
@@ -24,7 +40,7 @@
     @apply text-lg h-[60px] px-[30px] rounded-full transition text-white;
   }
   .btn-primary{
-    @apply bg-accent-primary hover:bg-accent-primary_hover;
+    @apply bg-primary hover:bg-accent-primary_hover;
   }
   .btn-secondary {
     @apply bg-white hover:bg-accent-secondary_hover;
